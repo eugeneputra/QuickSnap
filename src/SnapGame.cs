@@ -9,13 +9,9 @@ namespace CardGames
         public static void LoadResources()
         {
             Bitmap cards;
-            cards = SwinGame.LoadBitmapNamed ("Cards", "Cards.png");
-<<<<<<< HEAD
-            SwinGame.LoadSoundEffectNamed ("slap","slap.wav");
-            SwinGame.BitmapSetCellDetails (cards, 82, 110, 13, 5, 53);      // set the cells in the bitmap to match the cards
-=======
+			cards = SwinGame.LoadBitmapNamed ("Cards", "Cards.png");
+			SwinGame.LoadSoundEffectNamed ("slap", "slap.wav");
             SwinGame.BitmapSetCellDetails (cards, 167, 250, 13, 5, 53);      // set the cells in the bitmap to match the cards
->>>>>>> origin/add-drawcard-images
         }
 
 		/// <summary>
